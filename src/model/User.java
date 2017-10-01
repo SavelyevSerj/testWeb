@@ -8,6 +8,16 @@ public class User {
     private String name;
     private String groupNumber;
 
+    //Конструктор1
+    public User() {
+    }
+
+    //Конструктор2
+    public User(String name, String groupNumber) {
+        this.name = name;
+        this.groupNumber = groupNumber;
+    }
+
     //getters and setters
     public String getName() {
         return name;
